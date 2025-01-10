@@ -1,8 +1,7 @@
-preis=24.95 #Kitap fiyatı
-rabatt=0.4  #indirim oranı
-kargo_1=3   #1. kitabın kargo ücreti
-kargo=0.75  #2 ve daha fazla kitap kargo ücreti
-zahl=60
-#60 kitabın fatura bedelini hesaplayın
+yas = int(input("Yaşınızı girin"))
+note = float(input("Bitirme notunuzu girin"))
 
-print(((preis-preis*rabatt)*zahl)+(kargo_1+kargo*(zahl-1)))
+if yas>20 or yas<50 or note<80:
+  print("Aday uygun değil")
+else:
+  print("Aday uygun")
